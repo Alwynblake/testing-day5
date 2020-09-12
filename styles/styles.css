@@ -1,0 +1,53 @@
+body {
+  color: red;
+  background-color: lightgreen;
+}
+
+.multiple_attributes  {
+  width: 300px;
+
+}
+
+#one_attribute {
+ width:300px
+}
+
+/*  classes have period .classname
+    IDs have numbers #Idname */ 
+/* IDs take precedent over other attrubtes because its more specific */
+
+header li{
+  display: inline-block;
+  width: 100ox;
+  background-color: grey;
+  padding: 5px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 5px;
+  border: 1px solid black;
+  color: white;
+}
+
+section {
+width: 940px;
+text-align: center;
+}
+
+article {
+  width: 300px;
+  display: inline-block;
+}
+
+footer ul{
+  width: 100px;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+footer li {
+  width: 100 px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  
+}
